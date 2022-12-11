@@ -12,6 +12,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
     "axios": "^0.27.2",
+    "chat-app": "file:..",
     "date-fns": "^2.29.2",
     "emoji-picker-react": "^3.6.1",
     "framer-motion": "^7.2.1",
