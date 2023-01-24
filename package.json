@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend",
     "start": "npm install && npm install --prefix frontend && npm run build --prefix frontend && node backend/server",
+    "dev": "node backend/server.js",
     "backend": "nodemon backend/server.js",
     "frontend": "yarn dev --prefix frontend"
   },
